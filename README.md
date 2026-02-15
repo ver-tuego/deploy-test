@@ -16,3 +16,14 @@ git clone https://github.com/kontsantin/deploy.git deploy && del deploy\.git && 
 * Автоматический пуш на GitHub
 * Деплой на хостинг через SSH (SCP/PLINK)
 * Настройка GitHub Actions (CI/CD)
+
+
+### Windows (CMD)
+```cmd
+git clone https://github.com/kontsantin/deploy.git deploy && rd /s /q deploy\.git && cd deploy && deploy.bat
+```
+
+### PowerShell
+```powershell
+git clone https://github.com/kontsantin/deploy.git deploy; Remove-Item deploy\.git -Recurse -Force; cd deploy; .\deploy.bat
+```
