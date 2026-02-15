@@ -89,7 +89,7 @@ echo 🔑 Настройки SSH (хостинг)
 set /p "SSH_HOST=🖥️  Хост (например, host.beget.com): "
 set /p "SSH_USER=👤 Пользователь SSH: "
 set /p "SSH_PASS=🔑 Пароль SSH: "
-set /p "REMOTE_PATH=📂 Путь на сервере (например, ~/public_html): "
+set /p "REMOTE_PATH=📂 Путь на сервере (например, ~/graviton.mikhajd4.beget.tech/public_html/wp-content/themes/graviton): "
 
 goto save_full_config
 
